@@ -41,6 +41,8 @@ appears on startup
 
 ## GTK
 
+- Downgrade libsass to 3.6.0 using `yay -U https://archive.archlinux.org/packages/l/libsass/libsass-3.6.0-1-x86_64.pkg.tar.zst`
+because memory leaks are present in 3.6.3 when compiling GTK themes.
 - Create base16 GTK2.0 and GTK3.0 theme using [oomox](https://github.com/themix-project/oomox)
 - Set GTK2 theme using [LXAppearance](https://wiki.lxde.org/en/LXAppearance)
 - Set GTK3 theme using [GSettings](https://developer.gnome.org/GSettings/) with this
