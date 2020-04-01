@@ -35,11 +35,16 @@ appears on startup
 - Copy contents to mako config, which is found in `$XDG_CONFIG_HOME/mako`
 
 ## Neovim
+
 - Change colorscheme option to `base16-${theme-name}`
 - Change lightline colorscheme to `base16_${theme_name}`
 
 ## GTK
+
 - Create base16 GTK2.0 and GTK3.0 theme using [oomox](https://github.com/themix-project/oomox)
 - Set GTK2 theme using [LXAppearance](https://wiki.lxde.org/en/LXAppearance)
 - Set GTK3 theme using [GSettings](https://developer.gnome.org/GSettings/) with this
 command: `gsettings set org.gnome.desktop.interface gtk-theme '${theme-name}'`
+
+## i3blocks
+- Change colorscheme based on the needed colors. Usually Red, Orange, Yellow and Black/White
